@@ -6,9 +6,10 @@
 
 header {
     position: fixed;
+    margin-top: -90px;
     width: 100%;
     padding: 20px 10px 20px 10px;
-    background-color:  #cdc6c3;
+    background-color:  white;
     border-style:outset;
     border-color: black;
     border-top: 0;
@@ -16,7 +17,11 @@ header {
     border-right: 0;
     border-width: 15px;
 }
+main{
+    margin-top: 90px;
+}
 
+img
 h1 {
     position:absolute;
     display:flexbox;
@@ -44,7 +49,6 @@ a {
 }
 
 a:hover {
-    color: rgb(252, 255, 47);
     font-weight: 900;
 }
 
@@ -55,9 +59,9 @@ body {
 }
 
 .section {
-    margin: 2px;
+    position: sticky;
     margin-left: 300px;
-    display: flex;
+    margin-bottom: 10px;
     border-style: inset;
     border-color: black;
 }
@@ -68,11 +72,6 @@ body {
 
 }
 
-/*#A38F85*/
-
-img {
-   width: 500px
-}
 
 footer {
     position:absolute;
