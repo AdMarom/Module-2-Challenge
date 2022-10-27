@@ -8,25 +8,36 @@ header {
     position: fixed;
     margin-top: -90px;
     width: 100%;
-    padding: 20px 10px 20px 10px;
-    background-color:  white;
-    border-style:outset;
-    border-color: black;
+    padding-bottom: 30px;
+    background-color:  black;
+    border-style: inset;
+    border-color: white;
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-width: 15px;
+    border-width: 10px;
 }
 main{
     margin-top: 90px;
 }
 
-img
+.image {
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 500px;
+    position:static;
+    display:flex;
+
+}
 h1 {
-    position:absolute;
+    position:fixed;
+    top:45px;
     display:flexbox;
     justify-content: flex-end;
     align-content: flex-end;
+    color: greenyellow;
 }
 
 nav {
@@ -37,13 +48,14 @@ nav {
 }
 
 li {
+
     display: inline;
-    margin-right: 20px;
+    margin: 20px;
 
 }
 
 a {
-    color: black;
+    color: greenyellow;
     text-decoration: none;
     
 }
@@ -59,26 +71,27 @@ body {
 }
 
 .section {
-    position: sticky;
+    position: static;
     margin-left: 300px;
+    margin-right: 600px;
     margin-bottom: 10px;
     border-style: inset;
     border-color: black;
+    background-color: white;
 }
 
 .section:hover {
     font-size: 150%;
     cursor:pointer;
-
 }
 
 
 footer {
-    position:absolute;
-    display:flex;
-    justify-content: center;
-    bottom:0;
+    position:relative;
+    left: 0;
+    bottom: 0;
     width:100%;
-    background-color: rgb(12, 12, 12);
-    color:rgb(252, 255, 47)
-}
+    background-color: black;
+    color:greenyellow;
+    display: flex;
+    justify-content: center;
